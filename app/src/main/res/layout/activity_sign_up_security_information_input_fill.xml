@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signUpSecurityInformationInputFillVM" type="com.example.app.modules.signupsecurityinformationinputfill.data.viewmodel.SignUpSecurityInformationInputFillVM"/>
+    </data>
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent">
+        <ImageView android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" imageRes="@{@drawable/_ab1bafd6925422f43f41ec3fca63f588}"/>
+        <LinearLayout android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+                <FrameLayout android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_46px" android:layout_width="match_parent">
+                    <ImageView android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent" android:src="@drawable/_3f48b9e934965e66041609aa163329bb"/>
+                    <LinearLayout android:layout_gravity="center|end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_15px"
+                        android:layout_width="wrap_content" android:orientation="vertical">
+                        <TextView android:fontFamily="@font/avenir"
+                            android:gravity="top|start"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@string/msg_security_inform"
+                            android:textColor="@color/gray_900"
+                            android:textFontWeight="500"
+                            android:textSize="@dimen/_20px" android:textStyle="bold"/>
+                        <TextView android:fontFamily="@font/avenir"
+                            android:gravity="top|start"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_12px"
+                            android:layout_width="wrap_content"
+                            android:text="@string/msg_next_business"
+                            android:textColor="@color/gray_900"
+                            android:textFontWeight="400"
+                            android:textSize="@dimen/_14px" android:textStyle="bold"/>
+                    </LinearLayout>
+                    <TextView android:background="@color/white_A700"
+                        android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_44px"
+                        android:layout_width="wrap_content"
+                        android:paddingBottom="@dimen/_14px"
+                        android:paddingStart="@dimen/_13px"
+                        android:paddingTop="@dimen/_15px"
+                        android:text="@string/lbl_2_4"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="500"
+                        android:textSize="@dimen/_12px" android:textStyle="bold"/>
+                    <ImageView android:layout_gravity="center|start"
+                        android:layout_height="@dimen/_16px"
+                        android:layout_marginStart="@dimen/_16px"
+                        android:layout_width="@dimen/_9px" android:src="@drawable/_486a779fcc9c2651063e6842867c37d6"/>
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_55px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_16px"
+                        android:layout_marginEnd="@dimen/_15px"
+                        android:layout_width="@dimen/_14px" android:src="@drawable/_484ff916b2861d03fa2e86059471d990"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lbl_ridhs_joy"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_12px"
+                        android:layout_marginEnd="@dimen/_14px"
+                        android:layout_width="@dimen/_16px" android:src="@drawable/_224d59802dd8852cd7294601712cf9b7"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/msg_ridh_s_joyg_gma"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <ImageView android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_46px"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px"
+                android:layout_width="@dimen/_343px" android:src="@drawable/_7de488a7aef9fc3cce8f9e2a162ae997"/>
+            <ImageView android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_46px"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px"
+                android:layout_width="@dimen/_343px" android:src="@drawable/_7de488a7aef9fc3cce8f9e2a162ae997"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@color/indigo_300"
+                android:fontFamily="@font/avenir"
+                android:gravity="center" android:id="@+id/btnNext"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_50px"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11px"
+                android:paddingEnd="@dimen/_30px"
+                android:paddingStart="@dimen/_30px"
+                android:paddingTop="@dimen/_13px"
+                android:text="@string/lbl_next"
+                android:textColor="@color/white_A700"
+                android:textFontWeight="500"
+                android:textSize="@dimen/_16px" android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

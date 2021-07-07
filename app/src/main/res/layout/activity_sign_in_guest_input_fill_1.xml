@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signInGuestInputFill1VM" type="com.example.app.modules.signinguestinputfill1.data.viewmodel.SignInGuestInputFill1VM"/>
+    </data>
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent">
+        <ImageView android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" imageRes="@{@drawable/_6ddbef53df2723c2ac4caadaeead4de8}"/>
+        <LinearLayout android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+                android:layout_height="wrap_content" android:layout_width="match_parent">
+                <FrameLayout android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_46px" android:layout_width="match_parent">
+                    <ImageView android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent" android:src="@drawable/_3f48b9e934965e66041609aa163329bb"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_46px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/msg_sign_in_as_gues"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="500"
+                        android:textSize="@dimen/_20px" android:textStyle="bold"/>
+                    <ImageView android:layout_gravity="center|start"
+                        android:layout_height="@dimen/_16px"
+                        android:layout_marginStart="@dimen/_16px"
+                        android:layout_width="@dimen/_9px" android:src="@drawable/_486a779fcc9c2651063e6842867c37d6"/>
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_20px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_16px"
+                        android:layout_marginEnd="@dimen/_15px"
+                        android:layout_width="@dimen/_14px" android:src="@drawable/_484ff916b2861d03fa2e86059471d990"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lbl_ridhs"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_16px"
+                        android:layout_marginEnd="@dimen/_15px"
+                        android:layout_width="@dimen/_14px" android:src="@drawable/_484ff916b2861d03fa2e86059471d990"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lbl_joy"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_12px"
+                        android:layout_marginEnd="@dimen/_14px"
+                        android:layout_width="@dimen/_16px" android:src="@drawable/_224d59802dd8852cd7294601712cf9b7"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/msg_ridh_s_joyg_gma"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_16px"
+                        android:layout_marginEnd="@dimen/_17px"
+                        android:layout_width="@dimen/_8px" android:src="@drawable/_78c28010bf5f2da50acb7eded1243d03"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_14px"
+                        android:layout_marginStart="@dimen/_17px"
+                        android:layout_width="@dimen/_22px" android:src="@drawable/_6289379e12a18024ecc5e6bb450e4a29"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_6px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lbl_91"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_4px"
+                        android:layout_marginStart="@dimen/_1px"
+                        android:layout_width="@dimen/_8px" android:src="@drawable/_21ac6456bfc4427c640ef02f73a66ec0"/>
+                    <View android:background="@color/black_100"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_18px"
+                        android:layout_marginStart="@dimen/_6px" android:layout_width="@dimen/_1px"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_7px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lbl_9876543210"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="@dimen/_46px" android:layout_width="@dimen/_343px"/>
+                <LinearLayout android:layout_gravity="center|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_1px"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_44px"
+                        android:layout_width="@dimen/_44px" android:src="@drawable/_726507a4530aeb59cf03ee6b3b5292ca"/>
+                    <ImageView android:layout_gravity="center_vertical"
+                        android:layout_height="@dimen/_15px"
+                        android:layout_marginEnd="@dimen/_14px"
+                        android:layout_width="@dimen/_15px" android:src="@drawable/_431bf5760b25b56c8cef14632aed16ce"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15px"
+                        android:layout_width="wrap_content"
+                        android:text="@string/msg_ridhs_ruby_diam"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                </LinearLayout>
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:fontFamily="@font/avenir"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px"
+                android:layout_width="wrap_content"
+                android:text="@string/msg_terms_and_condi"
+                android:textColor="@color/gray_900"
+                android:textFontWeight="400" android:textSize="@dimen/_14px"/>
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:fontFamily="@font/avenir"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_16px"
+                android:layout_width="wrap_content"
+                android:text="@string/msg_promotional_off"
+                android:textColor="@color/gray_900"
+                android:textFontWeight="400" android:textSize="@dimen/_14px"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@color/indigo_300"
+                android:fontFamily="@font/avenir"
+                android:gravity="center"
+                android:id="@+id/btnSignInAsGues"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_30px"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11px"
+                android:paddingEnd="@dimen/_30px"
+                android:paddingStart="@dimen/_30px"
+                android:paddingTop="@dimen/_13px"
+                android:text="@string/msg_sign_in_as_gues"
+                android:textColor="@color/white_A700"
+                android:textFontWeight="500"
+                android:textSize="@dimen/_16px" android:textStyle="bold"/>
+            <TextView android:fontFamily="@font/avenir"
+                android:gravity="top|start"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20px"
+                android:layout_width="wrap_content"
+                android:text="@string/lbl_or"
+                android:textColor="@color/black_100"
+                android:textFontWeight="400"
+                android:textSize="@dimen/_16px" android:textStyle="bold"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@color/gray_100"
+                android:fontFamily="@font/avenir"
+                android:gravity="center" android:id="@+id/btnSignIn"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16px"
+                android:layout_marginStart="@dimen/_16px"
+                android:layout_marginTop="@dimen/_19px"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11px"
+                android:paddingEnd="@dimen/_30px"
+                android:paddingStart="@dimen/_30px"
+                android:paddingTop="@dimen/_13px"
+                android:text="@string/lbl_sign_in"
+                android:textColor="@color/indigo_300"
+                android:textFontWeight="500"
+                android:textSize="@dimen/_16px" android:textStyle="bold"/>
+            <TextView android:fontFamily="@font/avenir"
+                android:gravity="top|start"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20px"
+                android:layout_width="wrap_content"
+                android:text="@string/msg_don_t_have_an_a"
+                android:textColor="@color/black_100"
+                android:textFontWeight="400"
+                android:textSize="@dimen/_16px" android:textStyle="bold"/>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

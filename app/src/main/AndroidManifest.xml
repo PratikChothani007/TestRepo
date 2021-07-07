@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.example.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.example.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp">
+        <activity
+            android:name="com.example.app.modules.resetpasswordinputfill1.ui.ResetPasswordInputFill1Activity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.app.modules.profileedit.ui.ProfileEditActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.diamonddetail.ui.DiamondDetailActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.forgotpassword.ui.ForgotPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.quicksearch.ui.QuickSearchActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupsecurityinformationinputfill.ui.SignUpSecurityInformationInputFillActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signinguest.ui.SignInGuestActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.forgotpasswordotpverification.ui.ForgotPasswordOtpVerificationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.comparestonesshowonlydifference.ui.CompareStonesShowOnlyDifferenceActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.searchresultlistingaddtowatchlist.ui.SearchResultListingAddToWatchlistActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupsecurityinformationinputfill1.ui.SignUpSecurityInformationInputFill1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.forgotpasswordinputfill.ui.ForgotPasswordInputFillActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.searchdiamondsbasic.ui.SearchDiamondsBasicActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signuppersonalinformationinputfill1.ui.SignUpPersonalInformationInputFill1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.profile.ui.ProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signin.ui.SignInActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupbusinessinformationinputfill.ui.SignUpBusinessInformationInputFillActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.searchresultlistinggridview1.ui.SearchResultListingGridView1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signuppersonalinformation.ui.SignUpPersonalInformationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.searchresultlistingplaceanoffer.ui.SearchResultListingPlaceAnOfferActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.searchresultlisting.ui.SearchResultListingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.resetpasswordsuccess.ui.ResetPasswordSuccessActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupbusinessinformation.ui.SignUpBusinessInformationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupdocumentstermsconditioninputfill.ui.SignUpDocumentsTermsConditionInputFillActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signininputfill1.ui.SignInInputFill1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.resetpassword.ui.ResetPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.myaccountmyoffer.ui.MyAccountMyOfferActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.searchdiamondsadvance.ui.SearchDiamondsAdvanceActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupsecurityinformationemailverification.ui.SignUpSecurityInformationEmailVerificationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.myaccountmywatchlist.ui.MyAccountMyWatchlistActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signinguestinputfill1.ui.SignInGuestInputFill1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupdocumentsandtermscondition.ui.SignUpDocumentsAndTermsConditionActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.app.modules.signupsecurityinformation.ui.SignUpSecurityInformationActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

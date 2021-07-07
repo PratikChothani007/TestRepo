@@ -1,0 +1,3 @@
+package com.example.app.modules.signupsecurityinformationemailverification.`data`.model
+
+public class SignUpSecurityInformationEmailVerificationModel

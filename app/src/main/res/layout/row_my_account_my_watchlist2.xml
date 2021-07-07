@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="myAccountMyWatchlist2RowModel" type="com.example.app.modules.myaccountmywatchlist.data.model.MyAccountMyWatchlist2RowModel"/>
+    </data>
+    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:fontFamily="@font/avenir"
+            android:gravity="top|start" android:id="@+id/txtS"
+            android:layout_gravity="center|start"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@{myAccountMyWatchlist2RowModel.lblS}"
+            android:textColor="@color/gray_900"
+            android:textFontWeight="400" android:textSize="@dimen/_12px" android:textStyle="bold"/>
+        <TextView android:fontFamily="@font/avenir"
+            android:gravity="top|start" android:id="@+id/txtYellow"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@{myAccountMyWatchlist2RowModel.lblYellow}"
+            android:textColor="@color/gray_900"
+            android:textFontWeight="400" android:textSize="@dimen/_12px" android:textStyle="bold"/>
+    </FrameLayout>
+</layout>

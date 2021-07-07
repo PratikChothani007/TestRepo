@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchDiamondsAddDemandRowModel" type="com.example.app.modules.searchdiamondsadddemand.data.model.SearchDiamondsAddDemandRowModel"/>
+    </data>
+    <TextView android:background="@color/white_A700"
+        android:fontFamily="@font/avenir" android:gravity="top|start"
+        android:id="@+id/txt13" android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_6px"
+        android:paddingStart="@dimen/_9px"
+        android:paddingTop="@dimen/_8px"
+        android:text="@{searchDiamondsAddDemandRowModel.lbl13}"
+        android:textColor="@color/gray_900" android:textFontWeight="400"
+        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+</layout>

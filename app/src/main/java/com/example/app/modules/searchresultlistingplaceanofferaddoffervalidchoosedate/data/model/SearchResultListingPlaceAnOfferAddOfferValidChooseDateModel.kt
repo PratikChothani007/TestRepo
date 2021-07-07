@@ -1,0 +1,3 @@
+package com.example.app.modules.searchresultlistingplaceanofferaddoffervalidchoosedate.`data`.model
+
+public class SearchResultListingPlaceAnOfferAddOfferValidChooseDateModel

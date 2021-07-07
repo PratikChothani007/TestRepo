@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signUpSecurityInformationEmailVerificationVM" type="com.example.app.modules.signupsecurityinformationemailverification.data.viewmodel.SignUpSecurityInformationEmailVerificationVM"/>
+    </data>
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent">
+        <ImageView android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" imageRes="@{@drawable/_ab1bafd6925422f43f41ec3fca63f588}"/>
+        <HorizontalScrollView android:fillViewport="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:scrollbars="none">
+            <LinearLayout android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" android:orientation="vertical">
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_height="wrap_content" android:layout_width="match_parent">
+                    <FrameLayout
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_46px" android:layout_width="match_parent">
+                        <ImageView android:layout_gravity="center"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent" android:src="@drawable/_3f48b9e934965e66041609aa163329bb"/>
+                        <TextView android:fontFamily="@font/avenir"
+                            android:gravity="top|start"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@string/msg_email_verificat"
+                            android:textColor="@color/gray_900"
+                            android:textFontWeight="500"
+                            android:textSize="@dimen/_20px" android:textStyle="bold"/>
+                        <ImageView android:layout_gravity="center|start"
+                            android:layout_height="@dimen/_16px"
+                            android:layout_marginStart="@dimen/_16px"
+                            android:layout_width="@dimen/_9px" android:src="@drawable/_486a779fcc9c2651063e6842867c37d6"/>
+                    </FrameLayout>
+                </androidx.appcompat.widget.Toolbar>
+                <FrameLayout android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_34px" android:layout_width="wrap_content">
+                    <ImageView android:layout_gravity="center"
+                        android:layout_height="@dimen/_140px" android:layout_width="@dimen/_375px"/>
+                    <ImageView android:layout_gravity="center"
+                        android:layout_height="@dimen/_129px"
+                        android:layout_width="@dimen/_150px" imageRes="@{@drawable/_1201fdf17a926958982b6124033b39bd}"/>
+                </FrameLayout>
+                <TextView android:fontFamily="@font/avenir"
+                    android:gravity="top|start"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_37px"
+                    android:layout_marginTop="@dimen/_20px"
+                    android:layout_width="wrap_content"
+                    android:text="@string/msg_the_otp_has_bee"
+                    android:textColor="@color/gray_900"
+                    android:textFontWeight="400"
+                    android:textSize="@dimen/_14px" android:textStyle="bold"/>
+                <View android:background="@color/white_A100"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_2px"
+                    android:layout_marginEnd="@dimen/_16px"
+                    android:layout_marginStart="@dimen/_16px"
+                    android:layout_marginTop="@dimen/_100px" android:layout_width="@dimen/_60px"/>
+                <View android:background="@color/white_A100"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_2px" android:layout_width="@dimen/_60px"/>
+                <View android:background="@color/white_A100"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_2px" android:layout_width="@dimen/_60px"/>
+                <View android:background="@color/white_A100"
+                    android:layout_gravity="end"
+                    android:layout_height="@dimen/_2px"
+                    android:layout_marginEnd="@dimen/_16px"
+                    android:layout_marginStart="@dimen/_16px" android:layout_width="@dimen/_60px"/>
+                <TextView android:fontFamily="@font/avenir"
+                    android:gravity="top|start"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_86px"
+                    android:layout_width="wrap_content"
+                    android:text="@string/msg_if_you_didn_t_r"
+                    android:textColor="@color/black_100"
+                    android:textFontWeight="400"
+                    android:textSize="@dimen/_16px" android:textStyle="bold"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+</layout>

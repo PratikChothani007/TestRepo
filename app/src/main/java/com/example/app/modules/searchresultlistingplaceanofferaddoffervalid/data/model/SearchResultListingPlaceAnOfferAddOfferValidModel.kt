@@ -1,0 +1,3 @@
+package com.example.app.modules.searchresultlistingplaceanofferaddoffervalid.`data`.model
+
+public class SearchResultListingPlaceAnOfferAddOfferValidModel

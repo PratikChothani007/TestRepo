@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="searchResultListingPlaceAnOfferPopupVM" type="com.example.app.modules.searchresultlistingplaceanofferpopup.data.viewmodel.SearchResultListingPlaceAnOfferPopupVM"/>
+    </data>
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent">
+        <ImageView android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" imageRes="@{@drawable/_2bdde6179d7da263c37bc57a48e140aa}"/>
+        <FrameLayout android:layout_gravity="center"
+            android:layout_height="match_parent" android:layout_width="match_parent">
+            <FrameLayout android:layout_gravity="center"
+                android:layout_height="match_parent" android:layout_width="match_parent">
+                <ImageView android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" imageRes="@{@drawable/_bc12e4c28adedc481b43ce8f035f5d03}"/>
+                <LinearLayout android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/lbl_offer_submitted"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="500"
+                        android:textSize="@dimen/_18px" android:textStyle="bold"/>
+                    <TextView android:fontFamily="@font/avenir"
+                        android:gravity="top|start"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2px"
+                        android:layout_marginStart="@dimen/_2px"
+                        android:layout_marginTop="@dimen/_19px"
+                        android:layout_width="match_parent"
+                        android:text="@string/msg_your_offer_has"
+                        android:textColor="@color/gray_900"
+                        android:textFontWeight="400"
+                        android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_19px"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <TextView android:background="@color/gray_100"
+                            android:fontFamily="@font/avenir"
+                            android:gravity="top|start"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.47"
+                            android:layout_width="0dp"
+                            android:paddingBottom="@dimen/_11px"
+                            android:paddingStart="@dimen/_18px"
+                            android:paddingTop="@dimen/_13px"
+                            android:text="@string/lbl_go_to_my_offer"
+                            android:textColor="@color/indigo_300"
+                            android:textFontWeight="500"
+                            android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:background="@color/indigo_300"
+                            android:fontFamily="@font/avenir"
+                            android:gravity="center"
+                            android:id="@+id/btnHome"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_17px"
+                            android:layout_weight="0.53"
+                            android:layout_width="0dp"
+                            android:paddingBottom="@dimen/_11px"
+                            android:paddingEnd="@dimen/_30px"
+                            android:paddingStart="@dimen/_30px"
+                            android:paddingTop="@dimen/_13px"
+                            android:text="@string/lbl_home"
+                            android:textColor="@color/white_A700"
+                            android:textFontWeight="500"
+                            android:textSize="@dimen/_16px" android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

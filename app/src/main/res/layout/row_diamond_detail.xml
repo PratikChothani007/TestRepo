@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="diamondDetailRowModel" type="com.example.app.modules.diamonddetail.data.model.DiamondDetailRowModel"/>
+    </data>
+    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:background="@color/white_A700"
+            android:fontFamily="@font/avenir"
+            android:gravity="center|start"
+            android:id="@+id/txtHeartArrow"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_15px"
+            android:paddingTop="@dimen/_15px"
+            android:text="@{diamondDetailRowModel.lblHeartArrow}"
+            android:textColor="@color/black_100"
+            android:textFontWeight="400" android:textSize="@dimen/_12px" android:textStyle="bold"/>
+        <TextView android:fontFamily="@font/avenir"
+            android:gravity="top|start" android:id="@+id/txtNv"
+            android:layout_gravity="center|end"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@{diamondDetailRowModel.lblNv}"
+            android:textColor="@color/gray_900"
+            android:textFontWeight="500" android:textSize="@dimen/_14px" android:textStyle="bold"/>
+    </FrameLayout>
+</layout>
